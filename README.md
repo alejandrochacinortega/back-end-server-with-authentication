@@ -1,6 +1,16 @@
-Back end server with authentication using Express, Mongo, Passport
+
 
 ## info ##
+
+Back end server with authentication using Express, Mongo, Passport
+
+This projects has authentication for new and existing users and returns a token which can be used.
+
+Flow:
+
+1. If signing up -> verify email is not in use -> return token
+2. If signing in -> verify email/password -> return token
+3. Authentication request for a specific resource (secre page, data page, etc) -> verify token -> return resources access
 
 This project has the following layers and and libraries:
 
