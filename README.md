@@ -24,5 +24,13 @@ Authentication:
 
 ## setup ##
 
+Create a config.js file in the root folder and add a secret string to hold the application secret. For example:
+
+module.exports = {
+    secret: 'whateveryouwanttoadd' // secret string;
+};
+
+
+
 npm install
 npm run dev
